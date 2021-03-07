@@ -226,7 +226,7 @@ def home():
 		Delete.grid(row=2,column=0)
 
 		HOME=Button(text='Home',width=20,height=1,pady=5,font=10,command=home_code_del)
-		HOME.grid(row=2,column=1)
+		HOME.grid(row=2,column=1) #adi
 
 		root_del.mainloop()
 
@@ -253,68 +253,3 @@ def home():
 	r.mainloop()
 
 home()
-# def test():
-
-# def delete():
-
-# 	Tk.destroy(r)
-
-# 	root_d = Tk()
-
-	# Heading = Label(text=' MEMO !!',width=15,height=1,pady=3,font=10)
-	# Heading.grid(row=0,column=0)
-
-	# Title= Label(text='Name Of The recepient',width=20,height=1,pady=3,font=10)
-	# Title.grid(row=1,column=0)
-
-	# Input=Entry(root_d)
-	# Input.grid(row=1,column=1)
-
-	# user_search = get_string(Input)
-
-	# def btn():
-	# 	with open('Database.csv','r') as file:
-	# 		reader=csv.reader(file)
-	# 		for i in reader:
-	# 			if i[0]==user_search:
-	# 				details = Label(text=str(i[0]+''+i[1]+''+i[2]),width=15,height=1,pady=3,font=10)
-	# 				details.grid(row=2,column=0)
-		
-# 	Delete=Button(text='DELETE',width=15,height=1,pady=3,font=10,command=btn)
-# 	Delete.grid(row=2,column=0)
-
-
-# 	root_d.mainloop()
-
-
-
-
-# def rec_display():
-# 	root_d=Tk()
-
-# 	heading=Label(text='RECORDS DETAILS',width=20,height=1,pady=5,font=20)
-# 	heading.grid(row=0,column=1)
-
-# 	with open('database.csv','w') as data:
-# 		for i in data:
-			
-# 		root=Tk()
-
-# 		label_1 = Label(root,width=10,height=3,text="Enter Here")
-# 		label_1.pack()
-
-# 		entry1 = Entry (root) 
-# 		entry1.pack()
-
-# 		def getEntry ():  
-# 		    x1 = entry1.get()
-		    
-# 		    label1 = Label(root, text= str(x1))
-# 		    label1.pack()
-# 		    entry1.delete(first=0,last=30)
-		    
-# 		button1 = Button(root,text='Click To Display',width=15,height=3, command=getEntry)
-# 		button1.pack()
-
-# 		root.mainloop()
-
